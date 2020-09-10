@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['email'])) {
-    $email_to = "to@domain.com";
-    $email_subject = "Email subject";
+    $email_to = "info@stonelegend.net";
+    $email_subject = "New Signup";
     $first_name = $_POST['first_name']; // required
     $email_from = $_POST['email']; // required
     $telephone = $_POST['telephone']; // not required
